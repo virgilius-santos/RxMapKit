@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "RxMapKit"
-  s.version          = "1.2.2"
+  s.version          = "1.2.3"
   s.summary          = "RxSwift reactive wrapper for MapKit."
-  s.homepage         = "https://github.com/inkyfox/RxMapKit"
+  s.homepage         = "https://github.com/virgilius-santos/RxMapKit"
   s.license          = 'MIT'
-  s.author           = { "Yongha Yoo" => "inkyfox@oo-v.com" }
+  s.author           = { "V Santos" => "vsantos@google.com" }
   s.platform         = :ios, "10.0"
-  s.source           = { :git => "https://github.com/inkyfox/RxMapKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/virgilius-santos/RxMapKit.git", :tag => s.version.to_s }
   
   s.requires_arc          = true
   s.ios.deployment_target = '10.0'
