@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxMapKit"
-  s.version          = "1.2.3"
+  s.version          = "1.2.4"
   s.summary          = "RxSwift reactive wrapper for MapKit."
   s.homepage         = "https://github.com/virgilius-santos/RxMapKit"
   s.license          = 'MIT'

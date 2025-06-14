@@ -224,9 +224,7 @@ extension Reactive where Base: MKMapView {
      */
     public var didAddRenderers: ControlEvent<[MKOverlayRenderer]> {
         return ControlEvent(events:
-            methodInvokedWithParam1(#selector(
-                MKMapViewDelegate.mapView(_:didAdd:)!
-                    as (MKMapViewDelegate) -> (MKMapView, [MKOverlayRenderer]) -> Void))
+            methodInvokedWithParam1(Selector("mapView:didAddOverlayRenderers:"))
         )
     }
 
