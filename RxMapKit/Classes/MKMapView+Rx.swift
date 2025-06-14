@@ -146,9 +146,7 @@ extension Reactive where Base: MKMapView {
      */
     public var didAddAnnotationViews: ControlEvent<[MKAnnotationView]> {
         return ControlEvent(events:
-            methodInvokedWithParam1(#selector(
-                MKMapViewDelegate.mapView(_:didAdd:)!
-                    as (MKMapViewDelegate) -> (MKMapView, [MKAnnotationView]) -> Void))
+            methodInvokedWithParam1(Selector("mapView:didAdd:"))
         )
     }
     
